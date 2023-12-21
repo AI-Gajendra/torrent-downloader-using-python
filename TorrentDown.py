@@ -29,5 +29,5 @@ def download_torrent(torrent_file_paths, save_path):
 if __name__ == "__main__":
     num_torrents = int(input("Enter the number of torrents: "))
     torrent_file_paths = [input(f"Enter path to torrent file {i + 1}: ") for i in range(num_torrents)]
-    save_path = "/content/onePace"  # Use raw string for Windows paths
+    save_path = "enter your path where you want to save"  # Use raw string for Windows paths
     download_torrent(torrent_file_paths, save_path)
