@@ -16,8 +16,24 @@ operation
 
 ### How to Run  
 1. Clone this depository to your original machine.
+
+
 2. Open a terminal and navigate to the  design directory.
+    ```bash
+    pip install -r requirements.txt
+    ```
 3. Run the script and follow the prompts to download your  inundations.
+
+    For downloading using link
+    ```bash
+    python -m TorrentDownUsingLink.py
+    ```
+
+    For downloading using .torrent files
+    ```bash
+    python -m TorDownUsingFile.py
+    ```
+
 
 ### donation  
 Feel free to contribute, open issues, or  give suggestions to enhance the functionality of this script. Together, we can make Python- grounded alluvion downloading indeed more robust!  
